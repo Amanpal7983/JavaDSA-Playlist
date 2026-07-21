@@ -57,7 +57,7 @@ public class MaxHistogramRectengular {
         
     }
     public static void main(String[] args) {
-        int[] arr = {5,3,6,2,5,4,1};
+        int[] arr = {5,3,6,2,5,40,1};
 
         max(arr);
 
