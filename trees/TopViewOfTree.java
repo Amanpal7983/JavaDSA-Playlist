@@ -7,8 +7,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 //use of level order traversal
-
-
 class Information {
 
     Node node;
@@ -65,6 +63,14 @@ public class TopViewOfTree {
     }
 
     public static void main(String[] args) {
+
+//         1
+//       /   \
+//      2     3
+//     / \   / \
+//    4  10 20  5
+//   / \         \
+//  4   7         7
         Node root = new Node(1);
         root.left = new Node(2);
         root.right = new Node(3);
